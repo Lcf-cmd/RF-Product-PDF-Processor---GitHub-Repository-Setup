@@ -242,11 +242,3 @@ rf-pdf-processor/
 ├── package.json           # Dependencies/scripts
 └── README.md              # Main documentation
 ```
-
-## 5. Key Notes for GitHub Upload
-1. **Remove Sensitive Data**: Ensure no hardcoded API keys, personal data, or proprietary PDF content are included.
-2. **Dependency Validation**: Verify `package.json` includes all required dependencies (e.g., `@google/generative-ai`, `pdfjs-dist`, `react`, `next`, `tailwindcss`).
-3. **Version Tagging**: (Optional) Tag the initial release (e.g., `v1.0.0`) for clarity.
-4. **Issue Template**: (Optional) Add an issue template to guide bug reports/feature requests.
-
-This setup provides a complete, professional GitHub repository with clear documentation for users to run, customize, and contribute to the application. The README covers all critical aspects: installation, usage, customization (with specific code references), and troubleshooting—aligned with the iterative development process outlined in your Gemini conversation.
