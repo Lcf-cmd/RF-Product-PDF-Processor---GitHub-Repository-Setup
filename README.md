@@ -1,11 +1,8 @@
 # RF Product PDF Processor - GitHub Repository Setup
 
-## 1. Repository Overview
+## Repository Overview
 This repository contains a Node.js/React application designed to extract data from RF (Radio Frequency) product PDFs (specifically frequency hopping switch/filter products), generate standardized product SKUs following the `OSBP-[frequency-code]-[power-value]` naming convention, and output individual PDF datasheets and CSV files for each product. The application supports multi-product PDFs, page segmentation (vertical split for dual-product pages), and user-specified single-product pages to optimize processing accuracy.
 
-## 2. README.md (Full English Documentation)
-```markdown
-# RF Product PDF Data Extractor & Generator
 
 A robust Node.js/React application that automates data extraction from RF product PDFs (frequency hopping filters/switches), generates standardized SKUs, and outputs individual PDF datasheets and CSV files for each product.
 
@@ -33,7 +30,7 @@ A robust Node.js/React application that automates data extraction from RF produc
 ```bash
 git clone https://github.com/[your-username]/rf-pdf-processor.git
 cd rf-pdf-processor
-```
+
 
 ### 2. Install Dependencies
 ```bash
